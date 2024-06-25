@@ -1,0 +1,41 @@
+
+.outerbox{
+    padding: 10px;
+    background-color: rgb(8, 11, 11);
+    display: grid;
+    grid-template-areas: 
+    'head head head head'
+    'nav main main sidebar'
+    ' footer footer footer footer';
+    font-size: 30px;
+    text-align: center;
+    gap: 10px;
+}
+.outerbox > div {
+    padding: 80px 50px ;
+}
+.header {
+    grid-area: head ;
+    background-color: rgb(39, 202, 248);
+    padding: 10px;
+}
+.nav {
+    grid-area: nav;
+    background-color: rgb(233, 153, 56);
+    padding: 10px;
+}
+.main {
+    grid-area: main;
+    background-color: rgb(239, 51, 198);
+    padding: 10px;
+}
+.sidebar {
+    grid-area: sidebar;
+    background-color:  rgb(210, 64, 64);
+    padding: 10px;
+}
+.footer {
+    grid-area: footer;
+    background-color: blue;
+    padding: 10px;
+}
